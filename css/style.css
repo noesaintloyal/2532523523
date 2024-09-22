@@ -36,9 +36,11 @@ html, body {
   }
   
   body {
-      background: linear-gradient(-45deg, #7919aa, #511c42, #d52391, #a3123e);
+      background: linear-gradient(-45deg, #252f4e, #122a2a, #310721, #000000);
       background-size: 400% 400%;
       animation: gradient 25s ease infinite;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
   }
   
   @keyframes gradient {
@@ -65,12 +67,68 @@ a{
     text-decoration: none;
 }
 nav{
-    background-color: #7a19aa41;
+    background-color: #0000000b;
     border: 3px solid gray;
-    margin-right: 700px;
+    margin-right: 420px;
     margin-bottom: 50px;
+    margin-left: 420px;
+    height: 1600px;
+    align-items: center;
 }
 li{
-    margin-left: 100px;
+    margin-left: 30px;
     margin-top: 10px;
+}
+.zagolov{
+    font-size: 55px;
+    margin-left: 100px;
+    margin-top: 75px;
+}
+hr{
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top: 25px;
+
+}
+.one{
+    height: 400px;
+    width: 200px;
+    background-color: #ff9494;
+}
+div{
+    display: flex;
+    margin-left: 75px;
+}
+.sod{
+    margin-bottom: 25px;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.gfg{
+    margin-bottom: 50px;
+}
+.uch{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.result{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.first{
+    margin-right: 45%;
+    margin-left: 10px;
+    margin-bottom: 25px;
+}
+.second{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 25px;
+}
+.thirth{
+    margin-right: 10px;
+    margin-left: 45%;
+    margin-bottom: 50px;
 }
